@@ -10,13 +10,16 @@
 */
 
 /* Uncomment to use a custom font
-div#notebook, div.CodeMirror, div.output_area, div.output_wrapper, div.prompt {
+div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.prompt {
   font-family: 'Custom Font Name', monospace !important;
 }
 */
 
 body {background-color:#<%= @base["00"]["hex"] %>;}
+
+/* comment out this line to bring the toolbar back */
 div#maintoolbar, div#header {display: none !important;}
+
 div#notebook {border-top: none;}
 
 div.input_prompt {color: #<%= @base["0F"]["hex"] %>;}
