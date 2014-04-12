@@ -3,12 +3,23 @@
     Name:       Base16 Atelier Lakeside Dark
     Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/)
 
+    CodeMirror template adapted for IPython Notebook by Nikhil Sonnad (https://github.com/nsonnad/base16-ipython-notebook)
     CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
     Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
 
 */
+
+/* Uncomment to use a custom font
+div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.prompt {
+  font-family: 'Custom Font Name', monospace !important;
+}
+*/
+
 body {background-color:#161b1d;}
+
+/* comment out this line to bring the toolbar back */
 div#maintoolbar, div#header {display: none !important;}
+
 div#notebook {border-top: none;}
 
 div.input_prompt {color: #b72dd2;}
