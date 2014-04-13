@@ -15,7 +15,14 @@ div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.promp
 }
 */
 
-body {background-color:#2d2d2d;}
+/* GLOBALS */
+body {background-color: #2d2d2d;}
+a {color: #6699cc;}
+
+/* INTRO PAGE */
+.toolbar_info, .list_container {color: #e8e6df;}
+
+/* NOTEBOOK */
 
 /* comment out this line to bring the toolbar back */
 div#maintoolbar, div#header {display: none !important;}
@@ -31,15 +38,15 @@ div.input_area {
 div.output_area pre {font-weight: normal; color: #d3d0c8;}
 
 .rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
-  border: 1px  #515151 solid;
+  border: 1px  #d3d0c8 solid;
+  color: #d3d0c8;
 }
-.rendered_html th {font-weight: normal;}
 div.output_html { font-family: sans-serif; }
-table.dataframe tr {border: 1px #515151;}
+table.dataframe tr {border: 1px #d3d0c8;}
 
 div.cell.selected {border-radius: 0px;}
-div.text_cell_render, div.output_html {color: #515151;}
-span.CodeMirror-matchingbracket {color: #393939;}
+div.cell.edit_mode {border-radius: 0px; border: thin solid #cc99cc;}
+div.text_cell_render, div.output_html {color: #d3d0c8;}
 
 span.ansiblack {color: #393939;}
 span.ansiblue {color: #66cccc;}
@@ -65,13 +72,15 @@ div.output_stderr pre {color: #e8e6df;}
 .cm-s-ipython span.cm-property, .cm-s-ipython span.cm-attribute {color: #99cc99;}
 .cm-s-ipython span.cm-keyword {color: #f2777a;}
 .cm-s-ipython span.cm-string {color: #ffcc66;}
+.cm-s-ipython span.cm-operator {color: #d27b53;}
+.cm-s-ipython span.cm-builtin {color: #cc99cc;}
 
 .cm-s-ipython span.cm-variable {color: #99cc99;}
 .cm-s-ipython span.cm-variable-2 {color: #6699cc;}
 .cm-s-ipython span.cm-def {color: #f99157;}
 .cm-s-ipython span.cm-error {background: #f2777a; color: #a09f93;}
-.cm-s-ipython span.cm-bracket {color: #e8e6df;}
+.cm-s-ipython span.cm-bracket {color: #d3d0c8;}
 .cm-s-ipython span.cm-tag {color: #f2777a;}
 .cm-s-ipython span.cm-link {color: #cc99cc;}
 
-.cm-s-ipython .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
+.cm-s-ipython .CodeMirror-matchingbracket { text-decoration: underline; color: #e8e6df !important;}
