@@ -2,6 +2,16 @@
 
 Custom style sheets for [IPython Notebook][1], using Chris Kempson's [Base16][2] color scheme generator 
 
+## Screenshots
+
+####Ocean dark
+
+![ocean dark theme screenshot](./screenshots/ocean-dark.png, "Ocean dark")
+
+####Solarized light
+
+![solarized light theme screenshot](./screenshots/solarized-light.png, "Solarized light")
+
 ## Installation
 
 To use these styles, you'll need to place the style sheet of your choice in the static folder for your ipython
@@ -51,3 +61,4 @@ div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.promp
 [3]: https://github.com/chriskempson
 [4]: https://github.com/idleberg/base16-codemirror
 [5]: https://github.com/idleberg
+
