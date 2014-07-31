@@ -36,6 +36,7 @@ div.input_area {
   border: 1px solid #4a4543;
 }
 div.output_area pre {font-weight: normal; color: #a5a2a2;}
+div.output_subarea {font-weight: normal; color: #a5a2a2;}
 
 .rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
   border: 1px  #a5a2a2 solid;
