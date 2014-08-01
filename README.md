@@ -1,6 +1,6 @@
 # Base 16 for IPython Notebook
 
-Custom style sheets for [IPython Notebook][1], using Chris Kempson's [Base16][2] color scheme generator 
+Custom style sheets for [IPython Notebook][1], using Chris Kempson's [Base16][2] color scheme generator
 
 ## Screenshots
 
@@ -26,8 +26,10 @@ To locate the directory of your profile, do:
 Your style sheet will need to be named `custom.css` and
 placed in the `/static/custom` directory of your profile. So you might grab the `ocean-dark` theme like so:
 
-``wget -O `ipython locate profile <profile-name>`/static/custom/custom.css
-https://raw.githubusercontent.com/nsonnad/base16-ipython-notebook/master/base16-ocean-dark.css``
+```sh
+wget -O `ipython locate profile <profile-name>`/static/custom/custom.css
+https://raw.githubusercontent.com/nsonnad/base16-ipython-notebook/master/base16-ocean-dark.css
+```
 
 ## What happened to the toolbar?
 
@@ -53,7 +55,7 @@ div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.promp
 
 ## Credits
 
-* Uses Base16 builder by [Chris Kempson][3]. 
+* Uses Base16 builder by [Chris Kempson][3].
 * Based on [base16-codemirror][4] by [Jan T. Scott][5]
 
 [1]: http://ipython.org/notebook.html
@@ -61,4 +63,3 @@ div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.promp
 [3]: https://github.com/chriskempson
 [4]: https://github.com/idleberg/base16-codemirror
 [5]: https://github.com/idleberg
-
