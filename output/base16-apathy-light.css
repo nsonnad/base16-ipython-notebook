@@ -1,0 +1,87 @@
+/*
+
+    Name:       Base16 Apathy Light
+    Author:     Jannik Siebert (https://github.com/janniks)
+
+    CodeMirror template adapted for IPython Notebook by Nikhil Sonnad (https://github.com/nsonnad/base16-ipython-notebook)
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+/* Uncomment to use a custom font
+div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.prompt {
+  font-family: 'Custom Font Name', monospace !important;
+}
+*/
+
+/* GLOBALS */
+body {background-color: #D2E7E4;}
+a {color: #96883E;}
+
+/* INTRO PAGE */
+.toolbar_info, .list-container {color: #0B342D;}
+
+/* NOTEBOOK */
+
+/* comment out this line to bring the toolbar back */
+div#maintoolbar, div#header {display: none !important;}
+
+div#notebook {border-top: none;}
+
+div.input_prompt {color: #4C963E;}
+div.output_prompt {color: #3E965B;}
+div.input_area {
+  border-radius: 0px;
+  border: 1px solid #81B5AC;
+}
+div.output_area pre {font-weight: normal; color: #184E45;}
+div.output_subarea {font-weight: normal; color: #184E45;}
+
+.rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
+  border: 1px  #2B685E solid;
+  color: #2B685E;
+}
+div.output_html { font-family: sans-serif; }
+table.dataframe tr {border: 1px #184E45;}
+
+div.cell.selected {border-radius: 0px;}
+div.cell.edit_mode {border-radius: 0px; border: thin solid #3E965B;}
+div.text_cell_render, div.output_html {color: #184E45;}
+
+span.ansiblack {color: #0B342D;}
+span.ansiblue {color: #963E4C;}
+span.ansigray {color: #5F9C92;}
+span.ansigreen {color: #883E96;}
+span.ansipurple {color: #4C963E;}
+span.ansired {color: #3E9688;}
+span.ansiyellow {color: #3E4C96;}
+
+div.output_stderr {background-color: #3E9688;}
+div.output_stderr pre {color: #A7CEC8;}
+
+.cm-s-ipython.CodeMirror {background: #D2E7E4; color: #0B342D;}
+.cm-s-ipython div.CodeMirror-selected {background: #A7CEC8 !important;}
+.cm-s-ipython .CodeMirror-gutters {background: #D2E7E4; border-right: 0px;}
+.cm-s-ipython .CodeMirror-linenumber {color: #5F9C92;}
+.cm-s-ipython .CodeMirror-cursor {border-left: 1px solid #2B685E !important;}
+
+.cm-s-ipython span.cm-comment {color: #3E965B;}
+.cm-s-ipython span.cm-atom {color: #4C963E;}
+.cm-s-ipython span.cm-number {color: #4C963E;}
+
+.cm-s-ipython span.cm-property, .cm-s-ipython span.cm-attribute {color: #883E96;}
+.cm-s-ipython span.cm-keyword {color: #3E9688;}
+.cm-s-ipython span.cm-string {color: #3E4C96;}
+.cm-s-ipython span.cm-operator {color: #3E965B;}
+.cm-s-ipython span.cm-builtin {color: #4C963E;}
+
+.cm-s-ipython span.cm-variable {color: #883E96;}
+.cm-s-ipython span.cm-variable-2 {color: #96883E;}
+.cm-s-ipython span.cm-def {color: #3E7996;}
+.cm-s-ipython span.cm-error {background: #3E9688; color: #2B685E;}
+.cm-s-ipython span.cm-bracket {color: #184E45;}
+.cm-s-ipython span.cm-tag {color: #3E9688;}
+.cm-s-ipython span.cm-link {color: #4C963E;}
+
+.cm-s-ipython .CodeMirror-matchingbracket { text-decoration: underline; color: #0B342D !important;}
