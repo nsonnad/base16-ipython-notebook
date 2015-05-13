@@ -31,6 +31,11 @@ wget -O `ipython locate profile <profile-name>`/static/custom/custom.css
 https://raw.githubusercontent.com/nsonnad/base16-ipython-notebook/master/ipython-2/output/base16-ocean-dark.css
 ```
 
+## Build
+
+You can edit the templates (located in `./ipython-2/templates` and
+`./ipython-3/tempaltes`) by running `make`.
+
 ## What happened to the toolbar?
 
 You will probably notice that the top toolbar is gone in these styles. I've hidden it in the
