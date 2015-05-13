@@ -28,7 +28,7 @@ placed in the `/static/custom` directory of your profile. So you might grab the 
 
 ```sh
 wget -O `ipython locate profile <profile-name>`/static/custom/custom.css
-https://raw.githubusercontent.com/nsonnad/base16-ipython-notebook/master/base16-ocean-dark.css
+https://raw.githubusercontent.com/nsonnad/base16-ipython-notebook/master/ipython-2/output/base16-ocean-dark.css
 ```
 
 ## What happened to the toolbar?
