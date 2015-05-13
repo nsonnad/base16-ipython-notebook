@@ -1,4 +1,8 @@
-all: ./output
+OBJECTS = \
+	./ipython-2/output \
+	./ipython-3/output
+
+all: ${OBJECTS}
 
 base16-builder:
 	git submodule init
@@ -12,15 +16,18 @@ tmp/base16: base16-builder
 	mkdir -p $(dir $@)
 	cp $</base16 $@
 
-tmp/templates: ./templates
-	mkdir -p $(dir $@)
-	cp -r $< $@
-
-tmp/output: tmp/base16 tmp/schemes tmp/templates
+./ipython-2/output: tmp/base16 tmp/schemes
 	mkdir -p $@
-	cd tmp && ./base16
+	cp -r ./ipython-2/templates tmp/templates
+	cd tmp && mkdir -p output && ./base16
+	cp ./tmp/output/templates/*.css $@
 
-./output: tmp/output
+./ipython-3/output: tmp/base16 tmp/schemes
 	mkdir -p $@
-	cp $</templates/*.css $@
+	cp -r ./ipython-3/templates tmp/templates
+	cd tmp && mkdir -p output && ./base16
+	cp ./tmp/output/templates/*.css $@
 	rm -rf ./tmp
+
+clean:
+	rm -rf ./tmp ./ipython-2/output ./ipython-3/output
