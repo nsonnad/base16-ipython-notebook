@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/nsonnad/base16-ipython-notebook/master/ipython
 ## Build
 
 You can edit the templates (located in `./ipython-2/templates` and
-`./ipython-3/tempaltes`) by running `make`.
+`./ipython-3/templates`) by running `make`.
 
 ## What happened to the toolbar?
 
