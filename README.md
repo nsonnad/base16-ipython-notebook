@@ -27,7 +27,7 @@ Your style sheet will need to be named `custom.css` and
 placed in the `/static/custom` directory of your profile. So you might grab the `ocean-dark` theme like so:
 
 ```sh
-wget -O `ipython locate profile <profile-name>`/static/custom/custom.css
+ ❯ mkdir -p `ipython locate profile default`/static/custom/; wget -O `ipython locate profile <profile-name>`/static/custom/custom.css
 https://raw.githubusercontent.com/nsonnad/base16-ipython-notebook/master/ipython-2/output/base16-ocean-dark.css
 ```
 
