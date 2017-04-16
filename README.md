@@ -4,11 +4,11 @@ Custom style sheets for [IPython Notebook][1], using Chris Kempson's [Base16][2]
 
 ## Screenshots
 
-####Ocean dark
+#### Ocean dark
 
 ![ocean dark theme screenshot](./screenshots/ocean-dark.png "Ocean dark")
 
-####Solarized light
+#### Solarized light
 
 ![solarized light theme screenshot](./screenshots/solarized-light.png "Solarized light")
 
